@@ -77,7 +77,7 @@ handleSelectedChange = (event) => {
 
 {/* controlId is how we access the values via our event handlers */}
 {/* does not need an htmlFor, an id or name */}
-          <Form.Group controllId="username">
+          <Form.Group controlId="username">
             <Form.Label>username</Form.Label>
             <Form.Control type="text"/>
           </Form.Group>
